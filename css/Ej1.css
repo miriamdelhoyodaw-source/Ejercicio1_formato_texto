@@ -1,0 +1,57 @@
+body {
+            font-family: verdana, sans-serif;
+            margin: 20px;
+        }
+        /*Contenedor principal borde azul*/
+        .contenedor {
+            border: 1px solid blue;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 10px;
+        }
+
+        /*Estilo de los encabezados*/
+        h1 {
+            font-size: 24px;
+            margin-bottom: 0;
+            color: rgb(7, 6, 6);
+        }
+
+        h2 {
+            font-size: 18px;
+            font-style: italic;
+            font-weight: normal;
+            color: rgb(230, 45, 45);
+        }
+
+        /*Contenedor de la imagen central*/
+        .imagen-contenedor {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .imagen-contenedor img {
+            width: 120px; /*Ajusta el tamaño de la imagen según sea necesario*/
+            height: auto;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+            margin-top: 30px;
+        }
+        
+        /*Resaltar en amarillo la frase*/
+        .higlight {
+            background-color: yellow;
+        }
+
+        /*Recuadro para el hipervínculo inferior*/
+        .footer-link {
+            border: 1px solid rgb(49, 39, 230);
+            padding: 5px;
+            margin-top: 12px;
+        }
+        .footer-link a {
+            color: rgb(49, 39, 230);
+        }
